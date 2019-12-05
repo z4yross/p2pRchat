@@ -4,6 +4,7 @@
   "description": "p2p chat node ",
   "main": "index.js",
   "scripts": {
+    "start": "node back/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/z4yross/p2pRchat/issues"
   },
-  "homepage": "https://github.com/z4yross/p2pRchat#readme"
+  "homepage": "https://github.com/z4yross/p2pRchat#readme",
+  "dependencies": {
+    "net": "^1.0.2",
+    "stream-set": "^1.1.0"
+  }
 }
